@@ -1,0 +1,2 @@
+include ':app', ':zanview'
+rootProject.name='ZanDemo'

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    注意：android:layout_height="wrap_content"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+    android:paddingEnd="16dp">
+
+    <TextView
+        android:id="@+id/text_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="desc"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        />
+
+    <View
+        android:background="@color/split_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp" />
+
+    <com.ronaln.zanview.ZanView
+        android:id="@+id/zan_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isLike="true" />
+
+</LinearLayout>
